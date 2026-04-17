@@ -13,8 +13,6 @@
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
 [![Deploy on Vercel](https://img.shields.io/badge/Deploy-Live%20Preview-00e87a?style=flat-square&logo=vercel)](https://portfolio-gerfesson-abel.vercel.app)
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-f5a623?style=flat-square)
-![License](https://img.shields.io/badge/license-MIT-00e87a?style=flat-square)
 
 </div>
 
@@ -128,73 +126,8 @@ open index.html
 
 O portfólio é um projeto **estático puro** (sem build step), ideal para deploy direto na Vercel.
 
-### Passo a passo
+👉 **[portfolio-gerfesson-abel.vercel.app](https://portfolio-gabelcodes.vercel.app/)**
 
-**1. Faça fork ou clone este repositório para sua conta GitHub**
-
-**2. Acesse [vercel.com](https://vercel.com) e faça login com sua conta GitHub**
-
-**3. Clique em "Add New Project"**
-
-**4. Importe o repositório `portfolio`**
-
-**5. Configure o projeto com as seguintes definições:**
-
-| Campo | Valor |
-|---|---|
-| **Framework Preset** | `Other` |
-| **Root Directory** | `./` (raiz do projeto) |
-| **Build Command** | *(deixar em branco)* |
-| **Output Directory** | *(deixar em branco)* |
-| **Install Command** | *(deixar em branco)* |
-
-**6. Clique em "Deploy"**
-
-A Vercel detecta automaticamente projetos estáticos e serve o `index.html` da raiz. O deploy leva menos de 30 segundos.
-
-### Deploy via CLI (opcional)
-
-```bash
-# Instale a CLI da Vercel
-npm install -g vercel
-
-# Dentro da pasta do projeto, rode
-vercel
-
-# Siga as instruções no terminal
-# Para produção
-vercel --prod
-```
-
-### Atualizações automáticas
-
-Todo `git push` para a branch `main` dispara um novo deploy automaticamente. Pull Requests geram **preview deployments** com URL única para revisão antes de ir para produção.
-
-```bash
-# Fluxo de trabalho recomendado
-git add .
-git commit -m "feat: descrição da mudança"
-git push origin main
-# → Deploy automático na Vercel ✅
-```
-
----
-
-## 📬 Contato
-
-| Canal | Link |
-|---|---|
-| **GitHub** | [@gabelcodes](https://github.com/gabelcodes) |
-| **LinkedIn** | [gerfessonsouza-abel](https://linkedin.com/in/gerfessonsouza-abel) |
-| **E-mail** | [abel.am.pro@gmail.com](mailto:abel.am.pro@gmail.com) |
-
----
-
-## 📄 Licença
-
-Este projeto está sob a licença **MIT**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
 
 <div align="center">
   <sub>Feito com 💚 e muito café por <strong>Gerfesson Abel</strong> — Manaus, AM 🌿</sub>
